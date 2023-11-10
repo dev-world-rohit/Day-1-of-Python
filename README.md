@@ -1,6 +1,8 @@
 # Python: Day 1
 -created by Guido Van Rossum, 1989
+
 -Python 2.0 released in 2000 and last release is Python 2.7(end of life of Python 2 April 2020)
+
 **- Python is a language**
   -there are many implementations of python
       1. Cpython
@@ -88,6 +90,6 @@ Python is a compiler/interpreter
   - first it reads a code then evaluate the code, then print the output and at last again repeat these things
   -  Python interactive shell
 
-**Script Mode**
+**2. Script Mode**
   - in this mode programmers can code the whole software and then run it.
   - python script mode
