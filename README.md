@@ -5,13 +5,21 @@
 
 **- Python is a language**
   -there are many implementations of python
+  
       1. Cpython
+      
       2. PyPy
+      
   -even compilers that 'translate' Python code to other languages
+  
       1. IronPython -> .NET
+      
       2. Tython -> Java
+      
       3. Cython -> C/C++
+      
   - the "reference" Python implementation is CPython(most widely used)
+
 
 ### CPython
 CPython is just a collection of bunch of files that are located in some directory.
