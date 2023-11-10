@@ -30,26 +30,33 @@ The py launcher or just py for short is a shortcut to all the installed versions
 py <<python-version>> <<command>>
 ```
 
+
 ## Virtual Environment
 In python a virtual environment performs 2 import tasks
 1. Make copy of python installation.
 2. provides scripts to activate and deactivate the enviroment.
     -unset the old path and set the new path
+
+
 **Creating Virtual Environment**
 ```
 py <<python-version>> -m venv <<environment-name>>
 ```
+
 
 **Activating the Virtual Environment**
 Activating the virtual environment means removing the old path from environment variables and setting the new path.
 ```
 <path-to-environment\Scripts\activate.bat
 ```
+
+
 **Deactivating the Virtual Environment**
 Deativating the virtual environment means removing the newly set path from environment variables and setting the old path.
 ```
 deactivate
 ```
+
 
 ## pip(Python Package Manager)
 - pip is an another app/software installed alongside Python.
@@ -60,6 +67,8 @@ deactivate
 ```
 pip install package-name
 ```
+
+
 Some Variations in Command
 1. pip install package-name==version (install package of that version)
 2. pip install package-name<=1.2 (install package less than or lower than 1.2)
@@ -69,6 +78,8 @@ Some Variations in Command
 ```
 pip uninstall package-name
 ```
+
+
 ### requirement.txt
 - It is a file created alongside the code, to keep track of he required packages and versions used.
 - requirement.txt is a widely accepted convention. A coder can name a file anything.
@@ -78,10 +89,12 @@ pip uninstall package-name
 pip freeze > requirement.txt
 ```
 
+
 **Installing packages inside requirement.txt**
 ```
 pip install -r requirement.txt
 ```
+
 
 ## Python Complier/Interpreter
 Python is considered as both compiiler(it compiles the code to bytecode) and interpreter(Virtual Machine OS/Platform) runs the required code line by line.
@@ -92,11 +105,13 @@ Python is a compiler/interpreter
   - compiles and runs it
   - output is sent
 
+
 ### Python can do this in two ways
 **1. Interactive Mode**
   - it follows REPL(Read -> Evaluate -> Print -> Loop
   - first it reads a code then evaluate the code, then print the output and at last again repeat these things
   -  Python interactive shell
+
 
 **2. Script Mode**
   - in this mode programmers can code the whole software and then run it.
